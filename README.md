@@ -1,4 +1,4 @@
-# Snake Game Project
+# Battlesnake Game Project
 
 - `server.py`: Flask-Webserver zur Interaktion mit der Spiel-Engine.
 - `main.py`: Hauptspiel-Logik und Bot-Implementierung.
