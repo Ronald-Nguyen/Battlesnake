@@ -1,5 +1,3 @@
-
-
 import logging
 import os
 import typing
@@ -9,8 +7,6 @@ from flask import request
 
 
 def run_server(handlers: typing.Dict):
-
-    #runs the battlesnake server using Flask
     app = Flask("Battlesnake")
 
     @app.get("/")
@@ -37,7 +33,7 @@ def run_server(handlers: typing.Dict):
     @app.after_request
     def identify_server(response):
         response.headers.set(
-            "server", "battlesnake/replit/starter-snake-python"
+            "server", "battlesnake"
         )
         return response
 
