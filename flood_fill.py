@@ -1,11 +1,4 @@
-"""
-Ronald Nguyen 222200308
-Anastasiia Rudyk 222202247
-Florin Josua Seiberling 222202338
-Amina Tolikova 222201628
-Karola Melisa Yegen 222202033
-Paloma Kopplow 222200077
-"""
+
 
 class flood_fill:
 
